@@ -1,0 +1,11 @@
+{
+	"Lightning":
+			[
+			{"device":"Alerts",		"ref1": 5471   },
+			{"script":"Distance",		"ref2": 5468  },
+			{"script":"Events",		"ref2": 5469  },
+			{"script":"Speech",		"ref2": 5470  }
+			]
+			
+			
+  }
