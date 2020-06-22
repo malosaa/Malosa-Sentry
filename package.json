@@ -1,6 +1,6 @@
 {
   "name": "malosa-sentry",
-  "version": "1.0.0",
+  "version": "v1.0",
   "description": "Discord bot for hs4/hs3 + pushbullet integration, gives u realtime status of devices.",
   "main": "my_bot.js",
   "directories": {
