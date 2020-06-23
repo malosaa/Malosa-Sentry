@@ -24,7 +24,7 @@ Tested on `Windows 7-8-10 32-bit & 64-bit`.
 Quick start
 -
 
-**Install**
+>**Install**
 
 * `git clone https://github.com/malosaa/malosa-sentry.git`
 * `or download this package and extract in a folder`
@@ -32,7 +32,7 @@ Quick start
 `For installing the depencies, Execute: node install`
 
 
-**Run**
+>**Run**
 
 type `node malosa-sentry.js`
 
