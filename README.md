@@ -4,36 +4,50 @@
 
 See wiki for [Version History](https://github.com/Malosaa/Malosa-Sentry/wiki/Version-History)
 
-## For the most up-to-date information, see: https://github.com/Malosaa/Malosa-Sentry/
+## Overview
 
-Information on github and in the wiki section may be more up-to-date than in the README file downloaded from 'npm'. Its strongly recommended that you check the github.com information (both the README and the wiki section) for up-to-date information and assistance.
+The Malosa-Sentry-plugin is an private project for now, for hs3 and hs4. This plugin, when used, can give real-time status of devices,2 way communication and an integration with pushbullet on discord.
+>**Features**
 
-## Need Help?
-Send me a message on the homeseer forum (username Malosa)
+* 2 way communication with homeseer.
+* Live device status of choice configured by config file.
+* Priority device status (shows devices in the priority channel);
+* Pushbullet integration (can post messages in a virtual device in homeseer);
+* Malosa add-ons integration (used for all malosa scripts).
+* Fully integrated with phlocation2
+* Working on windows.
 
-## Posting Issues
+Windows versions
+-
+Tested on `Windows 7-8-10 32-bit & 64-bit`.
+
+Quick start
+-
+
+**Install**
+
+* `git clone https://github.com/malosaa/malosa-sentry.git`
+* `or download this package and extract in a folder`
+
+`For installing the depencies, Execute: node install`
+
+
+**Run**
+
+type `node malosa-sentry.js`
+
+
+Need Help?
+-
+* Send me a message on the homeseer forum (username Malosa)
+
+Posting Issues
+-
 Please don't post issues on the HomeSeer forums - while I occasionally check there, you will get a quicker response raising your issue in the "Issues" section of github at www.github.com/Malosaa/Malosa-Sentry
 
 Before adding an issue, please see the instructions here: https://github.com/Malosaa/Malosa-Sentry/wiki/Issue-Posting
 
-## Overview
-
-The Malosa-Sentry-plugin is an private project for now, for hs3 and hs4. This plugin, when used, can give real-time status of devices,2 way communication and an integration with pushbullet on discord.
-
-
-
-## Installation
-!Windows!
-
-you can do it like this:
-`````
-1) Download the master package of this github, extract it into a folder, hold left shift and then right click into the new created folder and select open terminal from here.
-Then type npm install, it should install everything.
-`````
-`````
-2) Create a new folder and hold left shift and then right click into the new created folder and select open terminal from here and type (npm i install malosa-sentry
-`````
-
   
-## Credits
+Credits
+-
 This plugin is for use with hs3 and [Homeseer V4](http://www.homeseer.com/home-control-software.html) software
