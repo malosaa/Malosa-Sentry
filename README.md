@@ -45,9 +45,7 @@ Need Help?
 
 Posting Issues
 -
-Please don't post issues on the HomeSeer forums - while I occasionally check there, you will get a quicker response raising your issue in the "Issues" section of github at www.github.com/Malosaa/Malosa-Sentry
-
-Before adding an issue, please see the instructions here: https://github.com/Malosaa/Malosa-Sentry/wiki/Issue-Posting
+Just DM me on discord (Don TranQ#2874) or pm me on the homeseer forum (malosa) 
 
   
 Credits
