@@ -1,0 +1,25 @@
+{
+  			"Settings":
+			[
+			
+			{"PushBulletToken": "YOUR TOKEN"},
+			{"PushBulletAccount1":"FIRSTEMAIL"},
+			{"PushBulletAccount2":"second@email.com"},
+			{"Pushbullet_deviceContactREF": "YOURDEVREF"}, 
+			{"Pushbullet_deviceChannelREF": "NotReady"},
+			{"Pushbullet_EventID": "EVENTDEVID"},
+			{"PushbulletChannelName":"YOURCHANNELNAME"},
+			{"PushBulletDirectionChannel":"incoming"},
+			{"PushBulletDirectionContact":"self"},
+			{"PushBulletDirectionReceiver":"outgoing"},
+			{"PushBulletReceiver":"NotReady"},
+			{"PushBulletFriend1":"email"},
+			{"PushBulletFriend2":"email"},
+			{"PushBulletFriend3":"email"},
+			{"PushBulletFriend4":"email"}
+			]
+			
+			
+			
+			
+  }
