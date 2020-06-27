@@ -15,9 +15,9 @@ Version keeps getting updated, will add more things soon.
 * Priority device status (shows devices in the priority channel);
 * Pushbullet integration (can post messages in a virtual device in homeseer);
 * Malosa add-ons integration (used for all malosa scripts).
-* Fully integrated with phlocation2
 * Working on windows.
 * Request files
+* SOON MUCH MORE!!
 
 Windows versions
 -
