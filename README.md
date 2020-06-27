@@ -6,7 +6,8 @@ See wiki for [Version History](https://github.com/Malosaa/Malosa-Sentry/wiki/Ver
 
 ## Overview
 
-The Malosa-Sentry-plugin is an private project for now, for hs3 and hs4. This plugin, when used, can give real-time status of devices,2 way communication and an integration with pushbullet on discord.
+The Malosa-Sentry-plugin is an private project for now, for hs3 and hs4. This plugin, when used, can give real-time status of devices,2 way communication and an integration with pushbullet on discord, this version is a trial but u can use everything u want.
+Version keeps getting updated, will add more things soon.
 >**Features**
 
 * 2 way communication with homeseer.
@@ -16,6 +17,7 @@ The Malosa-Sentry-plugin is an private project for now, for hs3 and hs4. This pl
 * Malosa add-ons integration (used for all malosa scripts).
 * Fully integrated with phlocation2
 * Working on windows.
+* Request files
 
 Windows versions
 -
