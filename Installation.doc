@@ -1,0 +1,97 @@
+Malosa Sentry - A real-time status plugin for homeseer trough NodeJS.
+
+
+Sorry guys i don't had the time to write a full manual so i do it this way.
+https://github.com/malosaa/Malosa-Sentry is the repo but the code is protected, as i have put a license on it.
+This version is a trial with full functionality, new special add-ons will not be updated in this trial version.
+
+The only limitation is that it will close after 1 hour of use, and u can restart it as many times as u want.
+and sometimes it will send a message in the channel saying its a trial.
+U can use this program on any pc, doesn't need to be on the same pc of homeseer, as long as its in the same network.
+
+****************************************FIRST**************************************************************************
+
+What you need to do first,
+Go to discord.com and register an account.
+Now you need to create a channel, follow this tutorial: 
+https://www.iorad.com/player/1633582/Create-channel-category-and-roles#trysteps-1
+(if it doesn't fit in your screen click on the magnifying glass right left side below in the screen.
+U can choose various versions (interactive,a step to step with pictures, or video) 
+
+
+then go to the developer portal https://discord.com/developers and see this tutorial: 
+https://www.iorad.com/player/1633572/create-bot#trysteps-1   (if it doesn't fit in your screen click on the magnifying glass right left side below in the screen.
+u can choose various versions (interactive,a step to step with pictures, or video) 
+To invite your bot to your channel use this link : https://discord.com/oauth2/authorize?client_id=(YOURBOTID)&scope=bot  change yourbotid to your bot token without the ()
+
+
+****************************************THE CONFIGS**************************************************************************
+Well, if u done everything correct, u have a server and some channels.
+now we setup the .vbs file in the root directory and the kill.bat and malosa-sentry.bat in Etra files folder, just open them in a text editor.
+if you done we need to setup the config.json in the /config folder 
+
+
+bot_secret_token = the discord bot secret token.
+Product_ID = serial code for license of this program (not needed now)
+Homeseer_ip = ip of homeseer
+Homeseer_port = port
+Homeseer_ASCI_Port = your homeseer ASCII port
+OwnerID = your discord owner id (u can get that by right click your name and click copy id)
+StatusCHannelID = the channel u want to use for all live status, u can get the id the same way as you did with owner id.
+Channel2Way = this is the channel u want to use for 2 way communication, right click on the selected channel and copy id 
+GuildID = the id of your discord server. (right click on your server icon the ROUND one left side and select copy id)
+all the groups under this works the same way as above.
+
+Role1-5 = that are the roles u created, only add here the roles of people (and yourself) that can send commands or ask status from homeseer trough discord.
+
+replacements = not ready yet, this will replace custom text received by devices or status.
+
+Priority group = put false for off and true for on, if "on" the bot will DM u.
+
+Priority devices = if u put the refid and enable (priority group) if a status change, in homeseer it will direct message you instead of a message in a separate channel.
+
+All the other things like LIGHTS-TEMPERATURE-PIR-WINDOW-LEAKSENSOR-DOORS-VENTILATION-SHELLYUPDATES, they are preconfigured, i will add more devices later.
+never change the names of the group name, this can crash the plug-in. 
+U can add as much as ref id's you want, it's unlimited!
+
+
+
+ADDONS.json 
+
+That is still in development, its an add-on for all my scripts i released in the past.
+Most of the script are Dutch.
+
+Pushbullet.JSON
+
+There you can put all the information of pushbullet
+i did integrate pushbullet into this plug-in.
+You can use pushbullet to trigger also events or whatever, by creating a virtual device in homeseer, and fill in the PUSHBULLET.json.
+When u get a message it will put the output in the homeseer virtual and u can trigger from it.
+
+****************************************DEPENCIES**************************************************************************
+if you done all the steps, we gonna install the depencies with this command: node install 
+BE SURE U HAVE A RECENT WINDOWS SDK INSTALLED AND MOST OF THE FRAMEWORKS !!
+I have visual studio 2019 installed + C++ desktop environment, its all selectable during the installation of VS19.
+More info on the github page.
+
+if everything is installed use this command to start the plugin: (node malosa-sentry) this is the normal window, if ?RESET is used in discord it will restart the plugin in a new window named MALOSA-SENTRY, and u can clore this one.
+I did test it on windows 7+8+10 x64+x86 all work correct.
+*****************************************EXTRA INFO*************************************************************************
+
+Commands u can use for now are:
+?RESET  (this will only work if u have setup the roles correctly, it will restart malosa-sentry in a new window with the vb script)
+
+Soon to be added:
+!where is my car
+!is homeseer ok ? (returns with stats of homeseer, costomizable by json config)
+!where is ***** ? ( request a location +map of a person, works only if u are the owner or have the specific role)
+and much much more.
+
+
+
+****************************************WARNING!!**************************************************************************
+WARNING!
+Never ever make your bot public to other people or give someone the bot invite link.
+If u do that people can see all your stats from homeseer, but not be able to control them.
+Discord is very safe, only use it for people u trust, there is no way people can just random join your server without an invite.
+The bot you create works only with your own private key and no one can access it or read it.
