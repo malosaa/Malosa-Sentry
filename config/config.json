@@ -65,16 +65,10 @@
 			{"GROUPNAME":"Events"},
 			{"PushbulletEvent":"events",		"trigger1":	[1]}
 			],
-			"accessories":
-			[
-			{"GROUPNAME":"Accessoires"},
-			{"type":"Fan",      			"name":"Ventilatie",  	"ref":4036, 	"onValue":99, "offValue":0, "can_dim":true, "uses99Percent":true	},
-			{"type":"HumiditySensor",		"ref":126  }
-			],
 			"Lights":
 			[
 			{"GROUPNAME":"Lights"},
-			{"type":"Lights",		"ref":4233, "onValue":1 	},
+			{"type":"Lights",		"ref":4233	},
 			{"type":"Lights",		"ref":4222 	},
 			{"type":"Lights",		"ref":4225 	},
 			{"type":"Lights",		"ref":4026 	},
