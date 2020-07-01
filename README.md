@@ -42,12 +42,12 @@ type `node malosa-sentry.js`
 Need Help?
 -
 * Send me a message on the homeseer forum (username Malosa)
-* or discord https://discord.gg/HACDWD
+* or discord https://discord.gg/5TTwnGB
 
 Posting Issues
 -
 Just DM me on discord (Don TranQ#2874) or pm me on the homeseer forum (malosa) 
-or just join my discord https://discord.gg/HACDWD
+or just join my discord https://discord.gg/5TTwnGB
 
   
 Credits
